@@ -1,0 +1,7 @@
+a1=0
+num = int(input("Enter the number : "))
+for i in range(0,num):
+    a=int(input("Enter number :"))
+    a1=a1+a
+num1 = a1/num
+print("Avg : ",num1)
